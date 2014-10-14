@@ -34,10 +34,6 @@
             android:name="com.teamReserveOn.reserveon.RegisterActivity"
             android:label="@string/app_name">
         </activity>
-        <activity android:name="com.teamReserveOn.reserveon.Aba1Activity"></activity>
-        <activity android:name="com.teamReserveOn.reserveon.Aba2Activity"></activity>
-        <activity android:name="com.teamReserveOn.reserveon.Aba3Activity"></activity>
-       
     </application>
 
 </manifest>

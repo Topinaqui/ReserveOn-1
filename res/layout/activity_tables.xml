@@ -46,7 +46,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
         <ListView
-            android:id="@+id/listView1"
+            android:id="@+id/list_view_tables"
             android:layout_width="match_parent"
             android:layout_height="148dp" 
             android:entries="@array/table_list_for_test">

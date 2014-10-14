@@ -10,7 +10,7 @@
     <string name="login_button_label">Logar</string>
     <string name="new_user_button_label">Novo usuário</string>
     
-    <string name="btn_reserve_label">Reserva</string>
+    <string name="btn_reserve_label">Fazer Reserva</string>
     
     <string name="table_status_free_label">Livre</string>
     <string name="table_status_occupied">Ocupada</string>
@@ -19,15 +19,16 @@
 
     <string name="label_user_register">Usuário</string>
     <string name="label_password_register">Senha</string>
-    <string name="user_register_hint">Seu nome de usuário</string>
-    <string name="password_register_hint">Sua senha</string>
+    <string name="user_register_hint">digite nome de usuário</string>
+    <string name="password_register_hint">digite uma senha</string>
     
-    <string name="reserve">Reserve sua mesa</string>
-    <string name="reserved">Mesas reservada</string>
-    <string name="checkin">Check in</string>
+    <string name="label_btn_register">Registrar</string>
+    <string name="label_rg_register">RG</string>
+    <string name="rg_register_hint">digite seu rg</string>
+    <string name="label_cpf_register">CPF</string>
+    <string name="cpf_register_hint">digite seu cpf</string>
     
-    <string name="menu">Cardápio</string>
-    <string name="status">Status do pedido</string>
-    <string name="consult">Consultar pedidos</string>
+      <string name="email_register_hint">digite seu email</string>
     
+      <string name="title_nova_conta">Criar Nova Conta</string>
 </resources>

@@ -4,17 +4,19 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
     
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/title_nova_conta"/>
     <LinearLayout
         android:id="@+id/register_user_div" 
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
         android:orientation="horizontal">
-        
-        <TextView
-        android:id="@+id/label_user_register" 
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/label_user_register"/>
+       
         <EditText
             android:id="@+id/register_user_field" 
             android:layout_width="match_parent"
@@ -28,13 +30,11 @@
         android:id="@+id/register_password_div" 
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        
         android:orientation="horizontal">
         
-        <TextView
-        android:id="@+id/label_password_register" 
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/label_password_register"/>
+        
         <EditText
             android:id="@+id/register_password_field" 
             android:layout_width="match_parent"
@@ -44,6 +44,71 @@
         
     </LinearLayout>
     
+      <LinearLayout
+        android:id="@+id/register_rg_div" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+        
+        
+        <EditText
+            android:id="@+id/register_rg_field" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/rg_register_hint"/>
+        
+    </LinearLayout>
+     
+      <LinearLayout
+        android:id="@+id/register_cpf_div" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+        
+        
+        <EditText
+            android:id="@+id/register_cpf_field" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/cpf_register_hint"/>
+        
+    </LinearLayout>
+      
+      
+        <LinearLayout
+        android:id="@+id/register_email_div" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+        
+        
+        <EditText
+            android:id="@+id/register_email_field" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email_register_hint"/>
+        
+    </LinearLayout>
+    
+     <LinearLayout 
+         android:id="@+id/btn_register_div"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginBottom="20dp"
+         android:orientation="horizontal">
+         
+         <Button
+             android:id="@+id/btn_register" 
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/label_btn_register"/>
+         
+     </LinearLayout>
     
 </LinearLayout>
-
